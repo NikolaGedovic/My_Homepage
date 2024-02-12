@@ -54,7 +54,7 @@
 .about-me-h2 {
   padding: 1.5625rem 0;
   font-family: "EB Garamond", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--font-color);
 }
 
@@ -86,4 +86,75 @@
 
 .hero-links-icons:active {
   color: var(--active-color);
+}
+
+/* MAIN */
+
+.main-section {
+  background-color: var(--bg-color);
+}
+
+.my-work-h1 {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 4rem;
+  color: var(--font-color);
+  text-align: center;
+  padding: 1.25rem 0 2.5rem 0;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.card {
+  width: 450px;
+  height: 650px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--second-bg-color);
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-top {
+  height: 60%;
+  background-color: brown;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.56rem;
+}
+
+.project-name {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 1.9rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project-card-links {
+  font-size: 1.9em;
+}
+
+.project-description {
+  padding: 1.56rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.05rem;
 }
