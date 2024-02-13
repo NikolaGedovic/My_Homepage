@@ -158,3 +158,68 @@
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.05rem;
 }
+
+/* FOOTER */
+.footer {
+  background-color: var(--font-color);
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer-img {
+  height: 270px;
+  width: auto;
+  border-radius: .5rem;
+  box-shadow: var(--active-color) 1.95px 1.95px 2.6px;
+}
+
+.footer-h3 {
+  font-family: "EB Garamond", sans-serif;
+  color: var(--second-font-color);
+  font-size: 2.3rem;
+}
+
+.footer-paragraph {
+  width: 15.6rem;
+  color: var(--second-font-color);
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer-email-container {
+  display: flex;
+  gap: .7rem;
+  align-items: center;
+}
+
+.footer-email {
+  font-size: 1.3rem;
+  color: var(--second-font-color);
+}
+
+.footer-email-icon {
+  font-size: 1.7rem;
+}
+
+.f-email {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer-icons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-bottom-icons {
+  color: var(--second-font-color);
+  font-size: 2.6rem;
+}
